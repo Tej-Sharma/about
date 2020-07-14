@@ -9,6 +9,11 @@ After cloning the app, the app can be run as follows:
   yarn start
 ```
 
+To build your app for production and generate files to be uploaded:
+```
+yarn build
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

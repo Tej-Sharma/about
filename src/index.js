@@ -4,6 +4,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './assets/styles/tailwind.css';
 import { ThemeProvider } from "@chakra-ui/core";
+
 const ThemedApp = () => 
   <ThemeProvider> 
     <App /> 

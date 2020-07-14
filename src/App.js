@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from './components/navbar';
-import Hero from './components/hero';
+import Content from './components/content';
 
 function App() {
   return (
     <div className="App">
         <Navbar />
-        <div className="App h-screen text-white">
-          <Hero />
+        <div className="App-content ">
+          <Content />
         </div>
     </div>
   );

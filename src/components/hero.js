@@ -1,17 +1,16 @@
 import React from 'react'
 import swag_photo from '../assets/img/swag_photo.png';
-import { Avatar, AvatarBadge } from "@chakra-ui/core";
 
 export default function hero() {
   return (
-    <section class="text-gray-700 body-font">
+    <section class="text-gray-700 body-font mb-12 ">
       <div class="container mx-auto flex px-5 pt-10 pb-24 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-400">
             Tejas Sharma
             <br class="hidden lg:inline-block" />
           </h1>
-          <p class="mb-8 leading-relaxed text-lg w-7/12">
+          <p class="mb-8 leading-relaxed text-lg w-2/3 text-gray-500">
             Advanced software engineer with a rich and powerful skillset including full-stack development and machine learning.
           </p>
           <div class="flex lg:flex-row md:flex-col">
@@ -31,7 +30,7 @@ export default function hero() {
             </button>
           </div>
         </div>
-        <Avatar w='300px' h='300px' name="Tejas Sharma" src={swag_photo} />
+        <img className="rounded-full" src={swag_photo} />
       </div>
     </section>
   )
