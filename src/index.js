@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './assets/styles/tailwind.css';
+import { ThemeProvider } from "@chakra-ui/core";
+const ThemedApp = () => 
+  <ThemeProvider> 
+    <App /> 
+  </ThemeProvider>;
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemedApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
