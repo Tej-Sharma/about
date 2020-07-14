@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project follows the [Create React App](https://github.com/facebook/create-react-app) template and thus you can use similar scripts on it.
+
+## Running the app
+
+After cloning the app, the app can be run as follows:
+
+```
+  yarn install
+  yarn start
+```
 
 ## Available Scripts
 
