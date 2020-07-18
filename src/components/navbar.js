@@ -5,7 +5,7 @@ export default function navbar() {
   return (
     <header className="text-gray-100 body-font bg-blue-800 fixed top-0 w-screen z-20">
       <div className="container mx-auto flex flex-wrap py-2 flex-col md:flex-row items-center">
-        <a href="/" className="flex title-font font-medium items-center text-gray-100 mb-4 md:mb-0">
+        <a href="/about" className="flex title-font font-medium items-center text-gray-100 mb-4 md:mb-0">
           <img
             alt=""
             src={ts}
