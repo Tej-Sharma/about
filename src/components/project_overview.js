@@ -3,6 +3,7 @@ import { Box, Image, Badge } from "@chakra-ui/core";
 import { projectImages } from '../data/images';
 
 export default function project_overview() {
+  // Store the projects with their properties
   const projects = [
     {
       id: '1',
