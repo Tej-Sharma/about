@@ -25,7 +25,7 @@ export default function contact() {
           <div className="mt-6 flex flex-row flex-wrap justify-center">
             <a href="mailto:tejassharma08@gmail.com" target="_blank" rel="noopener noreferrer" className="mx-2"><EmailIcon size={32} round={true} /></a>
             <a href="https://twitter.com/TrollgenStudios" target="_blank" rel="noopener noreferrer" className="mx-2"><TwitterIcon size={32} round={true} /></a>
-            <a href="www.linkedin.com/in/tejas-sharma-software-engineer" target="_blank" rel="noopener noreferrer" className="mx-2"><LinkedinIcon size={32} round={true} /></a>
+            <a href="https://www.linkedin.com/in/tejas-sharma-software-engineer/" target="_blank" rel="noopener noreferrer" className="mx-2"><LinkedinIcon size={32} round={true} /></a>
             <a href="https://www.instagram.com/tejas_trollgen/" target="_blank" rel="noopener noreferrer" className="mx-2">
               <img src="	https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png" alt="" className="rounded-full w-8" />
             </a>

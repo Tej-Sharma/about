@@ -1,8 +1,8 @@
 # About portfolio
 
-This portfolio website was made using React & TailwindCSS with a bit of Chakra UI.
+This portfolio website was made using React & TailwindCSS with a bit of Chakra UI. It was bootstrapped with create-react-app.
 
-## Running the app
+## Run the app
 
 In order to run the app, run the following commands:
 ```
