@@ -1,7 +1,6 @@
 import React from 'react'
 import { Box, Image, Badge } from "@chakra-ui/core";
-
-const IMG_URI = '/img/projects';
+import { projectImages } from '../data/images';
 
 export default function project_overview() {
   const projects = [
@@ -70,7 +69,7 @@ export default function project_overview() {
               <Box maxW="sm" borderWidth="1px" m={3} rounded="lg" overflow="hidden" 
                 className="bg-white transition duration-500 hover:bg-blue-500 hover:text-white mt-3">
                 <Image
-                  src={`${IMG_URI}/img${project.id}.jpg`}
+                  src={projectImages[project.id-1]}
                   alt={project.imageAlt}
                   w="100%"
                   h={64}
