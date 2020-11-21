@@ -1,16 +1,5 @@
-# About portfolio
+# Tejas Sharma's About portfolio
 
-This portfolio website was made using React & TailwindCSS with a bit of Chakra UI. It was bootstrapped with create-react-app.
+This portfolio website was made using React, TailwindCSS and Chakra UI.
 
-## Run the app
-
-In order to run the app, run the following commands:
-```
-  yarn install
-  yarn start
-```
-
-To create a production build:
-```
-yarn build
-```
+![Check it out live here](https://tej-sharma.github.io/about/)

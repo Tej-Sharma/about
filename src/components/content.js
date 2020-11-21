@@ -1,17 +1,15 @@
-import React from 'react'
-import Hero from './hero';
-import ProjectOverview from './project_overview';
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
-import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
-import Contact from './contact';
+import React from "react";
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
+import "react-awesome-slider/dist/custom-animations/cube-animation.css";
+import Hero from "./hero";
+import ProjectOverview from "./project_overview";
+import Contact from "./contact";
 
-export default function content() {
+export default function Content() {
   return (
-    <div >
-      <AwesomeSlider animation="cubeAnimation"
-        bullets={false}
-        >
+    <div>
+      <AwesomeSlider animation="cubeAnimation" bullets={false}>
         <div className="">
           <Hero />
         </div>
@@ -23,5 +21,5 @@ export default function content() {
         </div>
       </AwesomeSlider>
     </div>
-  )
+  );
 }
